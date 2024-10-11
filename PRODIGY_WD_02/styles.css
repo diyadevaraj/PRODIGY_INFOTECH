@@ -1,0 +1,102 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #89fffd, #ef32d9);
+    font-family: 'Arial', sans-serif;
+}
+
+.container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.stopwatch 
+{
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 
+{
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.circle 
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(from 180deg, #ff9a8b, #ff6a88, #ff99ac);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#timer 
+{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.controls 
+{
+    margin-top: 20px;
+}
+
+.btn 
+{
+    background: #ff6a88;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover 
+{
+    background: #ff4d6d;
+}
+
+#pause 
+{
+    background: #ff9a8b;
+}
+
+#pause:hover 
+{
+    background: #ff6a88;
+}
+
+#reset 
+{
+    background: #ff99ac;
+}
+
+#reset:hover 
+{
+    background: #ff6a88;
+}
